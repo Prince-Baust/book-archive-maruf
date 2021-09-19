@@ -9,14 +9,24 @@
 <body>
 
 <main class="container">
+    <!--Search Box-->
     <section class="mt-5">
-        <div class="input-group mb-3">
+        <h2 class="text-center text-primary">Search Your Favorite Books Here!</h2>
+        <div class="input-group mb-3 w-50   mx-auto">
             <input id="search-input" type="text" class="form-control" placeholder="Search Book" aria-label="Search Book" aria-describedby="button-addon2">
             <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
         </div>
     </section>
+
+    <!--Search Results-->
     <section>
-        <h3 id="search-hits" class="text-center"></h3>
+        <!--Total Results-->
+        <h3 id="search-hits" class="text-center text-success"></h3>
+
+        <!--Response-->
+        <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+
+        </div>
     </section>
 </main>
 
